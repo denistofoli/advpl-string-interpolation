@@ -3,10 +3,10 @@ Classe ajudante para interpolação de strings
 
 ### Exemplo #1
 ```xBase
-    Local oStrInt := StrInterpol():New("Hello %s %s %s",{"Denis", 15, date()})
+    Local oStrInt := StrInterpol():New("Hello %s number %s today is %s",{"Denis", 15, date()})
     Local cOut    := oStrInt:Out()
     
-    // cOut: "Hello Denis 15 20220216"
+    // cOut: "Hello Denis numeber 15 today is 20220216"
 ```
 
 ### Exemplo #2
@@ -14,11 +14,11 @@ Classe ajudante para interpolação de strings
     Local oStrInt := StrInterpol():New()
     Local cOut    := ""
     
-    oStrInt:SetText("Hello %s %s %s")
+    oStrInt:SetText("Hello %s number %s today is %s")
     oStrInt:SetParams({"Denis", 15, date()})
 
     cOut := oStrInt:Out()
-    // cOut: "Hello Denis 15 20220216"
+    // cOut: "Hello Denis numeber 15 today is 20220216"
 ```
 
 ### Parametros
