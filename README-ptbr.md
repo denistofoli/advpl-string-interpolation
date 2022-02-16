@@ -1,7 +1,7 @@
 # Advpl-String-Interpolation
-Advpl string interpolation class helper
+Classe ajudante para interpolação de strings
 
-### Example #1
+### Exemplo #1
 ```xBase
     Local oStrInt := StrInterpol():New("Hello %s %s %s",{"Denis", 15, date()})
     Local cOut    := oStrInt:Out()
@@ -9,7 +9,7 @@ Advpl string interpolation class helper
     // cOut: "Hello Denis 15 20220216"
 ```
 
-### Example #2
+### Exemplo #2
 ```xBase
     Local oStrInt := StrInterpol():New()
     Local cOut    := ""
@@ -21,11 +21,8 @@ Advpl string interpolation class helper
     // cOut: "Hello Denis 15 20220216"
 ```
 
-### Parameters
-| Parameter | Description |
+### Parametros
+| Parametro | Descrição |
 | --- | --- |
-| cText | Text to be process |
-| aParam | List of vales to be interpolated |
-
-
-[Read me in Brazillian Portuguese](README-ptbr.md)
+| cText | Texto a ser processado |
+| aParam | Lista de valores para interpolação |
