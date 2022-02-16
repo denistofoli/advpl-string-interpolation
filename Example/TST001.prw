@@ -10,7 +10,7 @@ Example using StrInterpol
 @since 16/02/2022
 /*/
 User Function Tst001()
-    Local StrInt := StrInterpol():New("Hello %s %s %s",{"Denis", 15, date()})
+    Local StrInt := StrInterpol():New("Hello %s number %s today is %s",{"Denis", 15, date()})
     Local cOut   := StrInt:Out()
 
     Conout(cOut)
