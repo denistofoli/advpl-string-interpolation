@@ -7,6 +7,9 @@ Interpolation Strings Helper
 
 @author Denis Tofoli (denis.tofoli@gmail.com)
 @since 16/02/2022
+
+@Obs License MIT (https://opensource.org/licenses/MIT)
+source https://github.com/denistofoli/advpl-string-interpolation
 /*/
 Class StrInterpol
     Data Text
